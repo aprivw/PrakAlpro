@@ -1,3 +1,5 @@
+#71170191
+#Struktur Kontrol Percabangan
 awal = int(input("Masukkan saldo awal: "))
 sisa = awal
 while (sisa > 0):
