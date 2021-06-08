@@ -1,0 +1,17 @@
+#71170191 - Aprianti Vivison Wijaya - UKDW
+#regular expression
+#Referensi dari modul praktikum
+#Program akan mencari match data dari text
+
+#In = > kata yang mengandung pola yang cocok
+#Pr = > memindai setiap string untuk menemukan kata yang cocok
+#Ou = > berapa pola yang ditemukan
+
+import re
+test = 'kamu coba, aku tidak mencobba, saya suka coba'
+i = 0
+pola= 'coba'
+for match in re.findall(pola, test):
+    print('Ditemukan "%s"' % match)
+    i+=1
+print("Didapatkan ",i," pola menggunakan kata ",pola)
